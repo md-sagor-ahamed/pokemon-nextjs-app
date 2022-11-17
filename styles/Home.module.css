@@ -73,6 +73,15 @@
   max-width: 800px;
 }
 
+.grids {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+}
+.card img{
+  max-height: 200px;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
